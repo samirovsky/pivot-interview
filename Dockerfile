@@ -1,5 +1,5 @@
 # Use the official Maven image to build your application
-FROM gcr.io/distroless/java17-debian12
+FROM gcr.io/distroless/java21-debian12
 
 ARG JAR_FILE=build/libs/*SNAPSHOT.jar
 
