@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:maindb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console.enabled: true
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /purchasing-request-ui.html
+server:
+  servlet:
+    context-path: /api
